@@ -76,7 +76,7 @@
 // console.log("Data saved successfully!");
 
 
-const restaurant = [
+const restaurants = [
   {
     "image": "ten",
     "Name": "Green Leaf Restaurant",
@@ -1378,3 +1378,16 @@ const restaurant = [
     "Restaurant_close_time": 0
   }
 ]
+
+function getrestaurants(restaurants){
+
+   restaurants.forEach(restaurant => {
+    
+
+const card = document.createElement('div');
+card.classList.add('card');
+
+   });
+}
+
+getrestaurants(restaurants);

@@ -1,3 +1,4 @@
+const fs = require("fs");
 const restaurant = [];
 const rest_name = ["The Spice House",
   "Urban Tadka",
@@ -55,7 +56,7 @@ for(let i=0;i<100;i++){
   obj["food_type"] = foodTypes[Math.floor(Math.random()*10)];
   obj["Price_for_two"] = Math.floor(Math.random()*2401+100);
   obj["location"] = delhiLocations[Math.floor(Math.random()*10)];
-  obj["Distance_from_Customer_house"] =  Math.floor;(Math.random()*10+1);
+  obj["Distance_from_Customer_house"] = Math.floor(Math.random() * 10 + 1);
   obj["offers"] = Math.floor(Math.random()*30);
   obj["alchohol"] = Math.random() > 0.7;
   obj["Restaurant_open_time"] =  Math.floor(Math.random()*24);
@@ -65,4 +66,11 @@ for(let i=0;i<100;i++){
   restaurant.push(obj);
 }   
 
-console.log(restaurant);
+// console.log(restaurant);
+
+fs.writeFileSync(
+  "arrayData.json",
+  JSON.stringify(restaurant, null, 2)
+);
+
+console.log("Data saved successfully!");

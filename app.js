@@ -1389,10 +1389,15 @@ card.classList.add('card');
 
 
 const img = document.createElement("img");
+img.src = `Image/${restaurant.image}.jpeg`;
+
+const Card_content = document.createAttribute('div');
+Card_content.classList.add('card-content');
 
 
 
-
+const Card_header = document.createElement('div');
+Card_header.classList.add('card-header');
 
    });
 }

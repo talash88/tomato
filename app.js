@@ -1399,6 +1399,18 @@ Card_content.classList.add('card-content');
 const Card_header = document.createElement('div');
 Card_header.classList.add('card-header');
 
+
+const Card_footer = document.createElement('div');
+Card_footer.classList.add('card-footer');
+
+
+
+
+const Card_location = document.createElement('div');
+Card_location.classList.add('card-location');
+
+
+
    });
 }
 

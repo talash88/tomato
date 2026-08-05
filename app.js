@@ -1381,6 +1381,11 @@ const restaurants = [
 
 function getrestaurants(restaurants){
 
+
+  //const root = document.getElementById('root');
+
+  const root = document.getElementById('restaurant-container');
+
    restaurants.forEach(restaurant => {
     
 
@@ -1390,25 +1395,71 @@ card.classList.add('card');
 
 const img = document.createElement("img");
 img.src = `Image/${restaurant.image}.jpeg`;
-
-const Card_content = document.createAttribute('div');
+//card-content
+const Card_content = document.createElement('div');
 Card_content.classList.add('card-content');
 
 
-
+//card-header
 const Card_header = document.createElement('div');
 Card_header.classList.add('card-header');
+ 
+const h3 = document.createElement('h3');
+h3.textContent = restaurant.Name;
 
+const rate = document.createElement('span');
+rate.textContent = restaurant.rating;
+rate.classList.add('rating');
+
+
+  Card_header.appendChild(h3);
+  Card_header.appendChild(rate);
+
+//card-footer
 
 const Card_footer = document.createElement('div');
 Card_footer.classList.add('card-footer');
 
+const food = document.createElement('span');
+food.textContent = restaurant.food_type;
+
+const price = document.createElement('span');
+price.textContent = restaurant.Price_for_two;
+
+Card_footer.appendChild(food);
+Card_footer.appendChild(price);
 
 
+
+
+
+//card-location
 
 const Card_location = document.createElement('div');
 Card_location.classList.add('card-location');
 
+const location = document.createElement('span');
+location.textContent = restaurant.location;
+
+const distance = document.createElement('span');
+distance.textContent = restaurant.Distance_from_Customer_house;
+
+Card_location.appendChild(location);
+Card_location.appendChild(distance);
+
+
+
+
+Card_content.appendChild(Card_header);
+Card_content.appendChild(Card_footer);
+Card_content.appendChild(Card_location);
+
+
+card.appendChild(img);
+card.appendChild(Card_content);
+
+
+root.appendChild(card);
 
 
    });

@@ -1408,7 +1408,7 @@ const h3 = document.createElement('h3');
 h3.textContent = restaurant.Name;
 
 const rate = document.createElement('span');
-rate.textContent = restaurant.rating;
+rate.textContent = "Rating: " +restaurant.rating;
 rate.classList.add('rating');
 
 
@@ -1424,7 +1424,7 @@ const food = document.createElement('span');
 food.textContent = restaurant.food_type;
 
 const price = document.createElement('span');
-price.textContent = restaurant.Price_for_two;
+price.textContent = "₹" + restaurant.Price_for_two;
 
 Card_footer.appendChild(food);
 Card_footer.appendChild(price);
@@ -1442,7 +1442,7 @@ const location = document.createElement('span');
 location.textContent = restaurant.location;
 
 const distance = document.createElement('span');
-distance.textContent = restaurant.Distance_from_Customer_house;
+distance.textContent = "Distance: " + restaurant.Distance_from_Customer_house ;
 
 Card_location.appendChild(location);
 Card_location.appendChild(distance);
@@ -1466,3 +1466,14 @@ root.appendChild(card);
 }
 
 getrestaurants(restaurants);
+
+
+
+document.getElementById("Alcohol").addEventListener('click', () => {
+
+  const result =restaurants.filter((obj)=>obj.alchohol);
+  document.getElementById('restaurant-container').innerHTML = "";
+  getrestaurants(result);
+  // getrestaurant(result);
+  // Handle alcohol filter logic here
+});

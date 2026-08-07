@@ -1442,7 +1442,7 @@ const location = document.createElement('span');
 location.textContent = restaurant.location;
 
 const distance = document.createElement('span');
-distance.textContent = "Distance: " + restaurant.Distance_from_Customer_house ;
+distance.textContent = "Distance: " + restaurant.Distance_from_Customer_house + " km";
 
 Card_location.appendChild(location);
 Card_location.appendChild(distance);
@@ -1476,4 +1476,37 @@ document.getElementById("Alcohol").addEventListener('click', () => {
   getrestaurants(result);
   // getrestaurant(result);
   // Handle alcohol filter logic here
-});
+
+
+})
+
+document.getElementById("Rating").addEventListener('click', () => {
+
+  const result =restaurants.filter((obj)=>obj.rating >= 4.5);
+  document.getElementById('restaurant-container').innerHTML = "";
+  getrestaurants(result);
+
+})
+
+// document.getElementById("Alcohol").addEventListener("click", function () {
+
+//     const result = restaurants.filter(function (obj) {
+//         return obj.alchohol === true;
+//     });
+
+//     document.getElementById("restaurant-container").innerHTML = "";
+
+//     getrestaurants(result);
+// });
+
+
+// document.getElementById("Rating").addEventListener("click", function () {
+
+//     const result = restaurants.filter(function (obj) {
+//         return obj.rating >= 4.5;
+//     });
+
+//     document.getElementById("restaurant-container").innerHTML = "";
+
+//     getrestaurants(result);
+// });

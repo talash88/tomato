@@ -58,7 +58,7 @@
 //   obj["location"] = delhiLocations[Math.floor(Math.random()*10)];
 //   obj["Distance_from_Customer_house"] = Math.floor(Math.random() * 10 + 1);
 //   obj["offers"] = Math.floor(Math.random()*30);
-//   obj["alchohol"] = Math.random() > 0.7;
+//   obj["alcohol"] = Math.random() > 0.7;
 //   obj["Restaurant_open_time"] =  Math.floor(Math.random()*24);
 //   obj["Restaurant_close_time"] = (obj["Restaurant_open_time"]*12)%24;
 
@@ -86,7 +86,7 @@ const restaurants = [
     "location": "Kolkata",
     "Distance_from_Customer_house": 2,
     "offers": 16,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 6,
     "Restaurant_close_time": 0
   },
@@ -99,7 +99,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 10,
     "offers": 20,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 19,
     "Restaurant_close_time": 12
   },
@@ -112,7 +112,7 @@ const restaurants = [
     "location": "Hyderabad",
     "Distance_from_Customer_house": 3,
     "offers": 16,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 12,
     "Restaurant_close_time": 0
   },
@@ -125,7 +125,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 7,
     "offers": 12,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 4,
     "Restaurant_close_time": 0
   },
@@ -138,7 +138,7 @@ const restaurants = [
     "location": "Ahmedabad",
     "Distance_from_Customer_house": 5,
     "offers": 27,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 20,
     "Restaurant_close_time": 0
   },
@@ -151,7 +151,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 7,
     "offers": 28,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 4,
     "Restaurant_close_time": 0
   },
@@ -164,7 +164,7 @@ const restaurants = [
     "location": "Kolkata",
     "Distance_from_Customer_house": 6,
     "offers": 15,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 14,
     "Restaurant_close_time": 0
   },
@@ -177,7 +177,7 @@ const restaurants = [
     "location": "Nashik",
     "Distance_from_Customer_house": 8,
     "offers": 12,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 7,
     "Restaurant_close_time": 12
   },
@@ -190,7 +190,7 @@ const restaurants = [
     "location": "Pune",
     "Distance_from_Customer_house": 10,
     "offers": 15,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 16,
     "Restaurant_close_time": 0
   },
@@ -203,7 +203,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 1,
     "offers": 7,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 5,
     "Restaurant_close_time": 12
   },
@@ -216,7 +216,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 8,
     "offers": 16,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 16,
     "Restaurant_close_time": 0
   },
@@ -229,7 +229,7 @@ const restaurants = [
     "location": "Hyderabad",
     "Distance_from_Customer_house": 3,
     "offers": 8,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 23,
     "Restaurant_close_time": 12
   },
@@ -242,7 +242,7 @@ const restaurants = [
     "location": "Hyderabad",
     "Distance_from_Customer_house": 8,
     "offers": 13,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 5,
     "Restaurant_close_time": 12
   },
@@ -255,7 +255,7 @@ const restaurants = [
     "location": "Pune",
     "Distance_from_Customer_house": 10,
     "offers": 3,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 16,
     "Restaurant_close_time": 0
   },
@@ -268,7 +268,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 7,
     "offers": 9,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 13,
     "Restaurant_close_time": 12
   },
@@ -281,7 +281,7 @@ const restaurants = [
     "location": "Pune",
     "Distance_from_Customer_house": 1,
     "offers": 13,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 16,
     "Restaurant_close_time": 0
   },
@@ -294,7 +294,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 4,
     "offers": 24,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 23,
     "Restaurant_close_time": 12
   },
@@ -307,7 +307,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 3,
     "offers": 5,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 11,
     "Restaurant_close_time": 12
   },
@@ -320,7 +320,7 @@ const restaurants = [
     "location": "Kolkata",
     "Distance_from_Customer_house": 7,
     "offers": 28,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 15,
     "Restaurant_close_time": 12
   },
@@ -333,7 +333,7 @@ const restaurants = [
     "location": "Ahmedabad",
     "Distance_from_Customer_house": 9,
     "offers": 18,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 0,
     "Restaurant_close_time": 0
   },
@@ -346,7 +346,7 @@ const restaurants = [
     "location": "Ahmedabad",
     "Distance_from_Customer_house": 6,
     "offers": 6,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 13,
     "Restaurant_close_time": 12
   },
@@ -359,7 +359,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 7,
     "offers": 21,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 3,
     "Restaurant_close_time": 12
   },
@@ -372,7 +372,7 @@ const restaurants = [
     "location": "Hyderabad",
     "Distance_from_Customer_house": 7,
     "offers": 21,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 21,
     "Restaurant_close_time": 12
   },
@@ -385,7 +385,7 @@ const restaurants = [
     "location": "Pune",
     "Distance_from_Customer_house": 6,
     "offers": 2,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 20,
     "Restaurant_close_time": 0
   },
@@ -398,7 +398,7 @@ const restaurants = [
     "location": "Chennai",
     "Distance_from_Customer_house": 8,
     "offers": 1,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 1,
     "Restaurant_close_time": 12
   },
@@ -411,7 +411,7 @@ const restaurants = [
     "location": "Nashik",
     "Distance_from_Customer_house": 6,
     "offers": 10,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 16,
     "Restaurant_close_time": 0
   },
@@ -424,7 +424,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 10,
     "offers": 6,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 6,
     "Restaurant_close_time": 0
   },
@@ -437,7 +437,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 7,
     "offers": 9,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 5,
     "Restaurant_close_time": 12
   },
@@ -450,7 +450,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 2,
     "offers": 20,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 2,
     "Restaurant_close_time": 0
   },
@@ -463,7 +463,7 @@ const restaurants = [
     "location": "Nashik",
     "Distance_from_Customer_house": 9,
     "offers": 16,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 23,
     "Restaurant_close_time": 12
   },
@@ -476,7 +476,7 @@ const restaurants = [
     "location": "Delhi",
     "Distance_from_Customer_house": 9,
     "offers": 5,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 16,
     "Restaurant_close_time": 0
   },
@@ -489,7 +489,7 @@ const restaurants = [
     "location": "Hyderabad",
     "Distance_from_Customer_house": 8,
     "offers": 12,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 11,
     "Restaurant_close_time": 12
   },
@@ -502,7 +502,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 9,
     "offers": 28,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 5,
     "Restaurant_close_time": 12
   },
@@ -515,7 +515,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 9,
     "offers": 13,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 10,
     "Restaurant_close_time": 0
   },
@@ -528,7 +528,7 @@ const restaurants = [
     "location": "Hyderabad",
     "Distance_from_Customer_house": 2,
     "offers": 29,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 22,
     "Restaurant_close_time": 0
   },
@@ -541,7 +541,7 @@ const restaurants = [
     "location": "Nashik",
     "Distance_from_Customer_house": 10,
     "offers": 9,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 13,
     "Restaurant_close_time": 12
   },
@@ -554,7 +554,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 9,
     "offers": 23,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 19,
     "Restaurant_close_time": 12
   },
@@ -567,7 +567,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 9,
     "offers": 22,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 21,
     "Restaurant_close_time": 12
   },
@@ -580,7 +580,7 @@ const restaurants = [
     "location": "Nashik",
     "Distance_from_Customer_house": 5,
     "offers": 17,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 7,
     "Restaurant_close_time": 12
   },
@@ -593,7 +593,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 1,
     "offers": 4,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 12,
     "Restaurant_close_time": 0
   },
@@ -606,7 +606,7 @@ const restaurants = [
     "location": "Ahmedabad",
     "Distance_from_Customer_house": 3,
     "offers": 0,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 1,
     "Restaurant_close_time": 12
   },
@@ -619,7 +619,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 5,
     "offers": 26,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 22,
     "Restaurant_close_time": 0
   },
@@ -632,7 +632,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 1,
     "offers": 20,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 22,
     "Restaurant_close_time": 0
   },
@@ -645,7 +645,7 @@ const restaurants = [
     "location": "Pune",
     "Distance_from_Customer_house": 4,
     "offers": 5,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 21,
     "Restaurant_close_time": 12
   },
@@ -658,7 +658,7 @@ const restaurants = [
     "location": "Ahmedabad",
     "Distance_from_Customer_house": 6,
     "offers": 11,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 3,
     "Restaurant_close_time": 12
   },
@@ -671,7 +671,7 @@ const restaurants = [
     "location": "Nashik",
     "Distance_from_Customer_house": 7,
     "offers": 5,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 13,
     "Restaurant_close_time": 12
   },
@@ -684,7 +684,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 5,
     "offers": 7,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 17,
     "Restaurant_close_time": 12
   },
@@ -697,7 +697,7 @@ const restaurants = [
     "location": "Kolkata",
     "Distance_from_Customer_house": 2,
     "offers": 1,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 7,
     "Restaurant_close_time": 12
   },
@@ -710,7 +710,7 @@ const restaurants = [
     "location": "Kolkata",
     "Distance_from_Customer_house": 7,
     "offers": 4,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 12,
     "Restaurant_close_time": 0
   },
@@ -723,7 +723,7 @@ const restaurants = [
     "location": "Pune",
     "Distance_from_Customer_house": 8,
     "offers": 27,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 21,
     "Restaurant_close_time": 12
   },
@@ -736,7 +736,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 9,
     "offers": 17,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 11,
     "Restaurant_close_time": 12
   },
@@ -749,7 +749,7 @@ const restaurants = [
     "location": "Chennai",
     "Distance_from_Customer_house": 2,
     "offers": 17,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 23,
     "Restaurant_close_time": 12
   },
@@ -762,7 +762,7 @@ const restaurants = [
     "location": "Chennai",
     "Distance_from_Customer_house": 4,
     "offers": 21,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 2,
     "Restaurant_close_time": 0
   },
@@ -775,7 +775,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 3,
     "offers": 20,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 17,
     "Restaurant_close_time": 12
   },
@@ -788,7 +788,7 @@ const restaurants = [
     "location": "Nashik",
     "Distance_from_Customer_house": 7,
     "offers": 9,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 13,
     "Restaurant_close_time": 12
   },
@@ -801,7 +801,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 10,
     "offers": 22,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 17,
     "Restaurant_close_time": 12
   },
@@ -814,7 +814,7 @@ const restaurants = [
     "location": "Pune",
     "Distance_from_Customer_house": 8,
     "offers": 2,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 11,
     "Restaurant_close_time": 12
   },
@@ -827,7 +827,7 @@ const restaurants = [
     "location": "Nashik",
     "Distance_from_Customer_house": 10,
     "offers": 14,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 14,
     "Restaurant_close_time": 0
   },
@@ -840,7 +840,7 @@ const restaurants = [
     "location": "Kolkata",
     "Distance_from_Customer_house": 3,
     "offers": 6,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 11,
     "Restaurant_close_time": 12
   },
@@ -853,7 +853,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 9,
     "offers": 22,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 13,
     "Restaurant_close_time": 12
   },
@@ -866,7 +866,7 @@ const restaurants = [
     "location": "Ahmedabad",
     "Distance_from_Customer_house": 3,
     "offers": 28,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 2,
     "Restaurant_close_time": 0
   },
@@ -879,7 +879,7 @@ const restaurants = [
     "location": "Pune",
     "Distance_from_Customer_house": 6,
     "offers": 11,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 19,
     "Restaurant_close_time": 12
   },
@@ -892,7 +892,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 7,
     "offers": 11,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 21,
     "Restaurant_close_time": 12
   },
@@ -905,7 +905,7 @@ const restaurants = [
     "location": "Nashik",
     "Distance_from_Customer_house": 10,
     "offers": 24,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 17,
     "Restaurant_close_time": 12
   },
@@ -918,7 +918,7 @@ const restaurants = [
     "location": "Kolkata",
     "Distance_from_Customer_house": 8,
     "offers": 18,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 14,
     "Restaurant_close_time": 0
   },
@@ -931,7 +931,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 6,
     "offers": 20,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 19,
     "Restaurant_close_time": 12
   },
@@ -944,7 +944,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 1,
     "offers": 23,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 20,
     "Restaurant_close_time": 0
   },
@@ -957,7 +957,7 @@ const restaurants = [
     "location": "Ahmedabad",
     "Distance_from_Customer_house": 7,
     "offers": 21,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 3,
     "Restaurant_close_time": 12
   },
@@ -970,7 +970,7 @@ const restaurants = [
     "location": "Ahmedabad",
     "Distance_from_Customer_house": 5,
     "offers": 0,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 2,
     "Restaurant_close_time": 0
   },
@@ -983,7 +983,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 7,
     "offers": 17,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 3,
     "Restaurant_close_time": 12
   },
@@ -996,7 +996,7 @@ const restaurants = [
     "location": "Hyderabad",
     "Distance_from_Customer_house": 8,
     "offers": 21,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 0,
     "Restaurant_close_time": 0
   },
@@ -1009,7 +1009,7 @@ const restaurants = [
     "location": "Kolkata",
     "Distance_from_Customer_house": 2,
     "offers": 21,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 11,
     "Restaurant_close_time": 12
   },
@@ -1022,7 +1022,7 @@ const restaurants = [
     "location": "Chennai",
     "Distance_from_Customer_house": 9,
     "offers": 12,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 5,
     "Restaurant_close_time": 12
   },
@@ -1035,7 +1035,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 4,
     "offers": 12,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 9,
     "Restaurant_close_time": 12
   },
@@ -1048,7 +1048,7 @@ const restaurants = [
     "location": "Delhi",
     "Distance_from_Customer_house": 6,
     "offers": 14,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 7,
     "Restaurant_close_time": 12
   },
@@ -1061,7 +1061,7 @@ const restaurants = [
     "location": "Hyderabad",
     "Distance_from_Customer_house": 4,
     "offers": 27,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 10,
     "Restaurant_close_time": 0
   },
@@ -1074,7 +1074,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 7,
     "offers": 26,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 9,
     "Restaurant_close_time": 12
   },
@@ -1087,7 +1087,7 @@ const restaurants = [
     "location": "Delhi",
     "Distance_from_Customer_house": 3,
     "offers": 6,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 5,
     "Restaurant_close_time": 12
   },
@@ -1100,7 +1100,7 @@ const restaurants = [
     "location": "Hyderabad",
     "Distance_from_Customer_house": 4,
     "offers": 19,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 4,
     "Restaurant_close_time": 0
   },
@@ -1113,7 +1113,7 @@ const restaurants = [
     "location": "Chennai",
     "Distance_from_Customer_house": 9,
     "offers": 20,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 16,
     "Restaurant_close_time": 0
   },
@@ -1126,7 +1126,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 6,
     "offers": 15,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 15,
     "Restaurant_close_time": 12
   },
@@ -1139,7 +1139,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 1,
     "offers": 14,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 19,
     "Restaurant_close_time": 12
   },
@@ -1152,7 +1152,7 @@ const restaurants = [
     "location": "Ahmedabad",
     "Distance_from_Customer_house": 7,
     "offers": 23,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 10,
     "Restaurant_close_time": 0
   },
@@ -1165,7 +1165,7 @@ const restaurants = [
     "location": "Kolkata",
     "Distance_from_Customer_house": 5,
     "offers": 14,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 23,
     "Restaurant_close_time": 12
   },
@@ -1178,7 +1178,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 3,
     "offers": 1,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 17,
     "Restaurant_close_time": 12
   },
@@ -1191,7 +1191,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 2,
     "offers": 18,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 2,
     "Restaurant_close_time": 0
   },
@@ -1204,7 +1204,7 @@ const restaurants = [
     "location": "Delhi",
     "Distance_from_Customer_house": 10,
     "offers": 3,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 16,
     "Restaurant_close_time": 0
   },
@@ -1217,7 +1217,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 9,
     "offers": 25,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 16,
     "Restaurant_close_time": 0
   },
@@ -1230,7 +1230,7 @@ const restaurants = [
     "location": "Mumbai",
     "Distance_from_Customer_house": 8,
     "offers": 0,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 20,
     "Restaurant_close_time": 0
   },
@@ -1243,7 +1243,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 5,
     "offers": 24,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 2,
     "Restaurant_close_time": 0
   },
@@ -1256,7 +1256,7 @@ const restaurants = [
     "location": "Chennai",
     "Distance_from_Customer_house": 3,
     "offers": 13,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 11,
     "Restaurant_close_time": 12
   },
@@ -1269,7 +1269,7 @@ const restaurants = [
     "location": "Pune",
     "Distance_from_Customer_house": 7,
     "offers": 24,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 2,
     "Restaurant_close_time": 0
   },
@@ -1282,7 +1282,7 @@ const restaurants = [
     "location": "Nagpur",
     "Distance_from_Customer_house": 10,
     "offers": 0,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 0,
     "Restaurant_close_time": 0
   },
@@ -1295,7 +1295,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 8,
     "offers": 27,
-    "alchohol": true,
+    "alcohol": true,
     "Restaurant_open_time": 18,
     "Restaurant_close_time": 0
   },
@@ -1308,7 +1308,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 5,
     "offers": 22,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 9,
     "Restaurant_close_time": 12
   },
@@ -1321,7 +1321,7 @@ const restaurants = [
     "location": "Chennai",
     "Distance_from_Customer_house": 2,
     "offers": 3,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 13,
     "Restaurant_close_time": 12
   },
@@ -1334,7 +1334,7 @@ const restaurants = [
     "location": "Pune",
     "Distance_from_Customer_house": 2,
     "offers": 21,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 20,
     "Restaurant_close_time": 0
   },
@@ -1347,7 +1347,7 @@ const restaurants = [
     "location": "Bangalore",
     "Distance_from_Customer_house": 2,
     "offers": 9,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 22,
     "Restaurant_close_time": 0
   },
@@ -1360,7 +1360,7 @@ const restaurants = [
     "location": "Nashik",
     "Distance_from_Customer_house": 8,
     "offers": 6,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 20,
     "Restaurant_close_time": 0
   },
@@ -1373,7 +1373,7 @@ const restaurants = [
     "location": "Delhi",
     "Distance_from_Customer_house": 8,
     "offers": 20,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 2,
     "Restaurant_close_time": 0
   }
@@ -1471,7 +1471,7 @@ getrestaurants(restaurants);
 
 document.getElementById("Alcohol").addEventListener('click', () => {
 
-  const result =restaurants.filter((obj)=>obj.alchohol);
+  const result =restaurants.filter((obj)=>obj.alcohol);
   document.getElementById('restaurant-container').innerHTML = "";
   getrestaurants(result);
   // getrestaurant(result);
@@ -1491,7 +1491,7 @@ document.getElementById("Rating").addEventListener('click', () => {
 // document.getElementById("Alcohol").addEventListener("click", function () {
 
 //     const result = restaurants.filter(function (obj) {
-//         return obj.alchohol === true;
+//         return obj.alcohol === true;
 //     });
 
 //     document.getElementById("restaurant-container").innerHTML = "";

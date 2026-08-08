@@ -8,7 +8,7 @@
     "location": "Kolkata",
     "Distance_from_Customer_house": 2,
     "offers": 16,
-    "alchohol": false,
+    "alcohol": false,
     "Restaurant_open_time": 6,
     "Restaurant_close_time": 0
   },
